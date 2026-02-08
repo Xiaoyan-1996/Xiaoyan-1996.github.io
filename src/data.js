@@ -55,6 +55,12 @@ const projects = [
       "Used a combination of convolutional neural networks and clustering algorithms on multi-source satellite altimetry data to identify and track eddies. Achieved >90% accuracy in validation datasets.",
   },
   {
+    title: "Ocean Eddy Detection 2",
+    summary: "Developed ML models to detect ocean eddies from satellite data.",
+    details:
+      "Used a combination of convolutional neural networks and clustering algorithms on multi-source satellite altimetry data to identify and track eddies. Achieved >90% accuracy in validation datasets.",
+  },
+  {
     title: "Drifter Trajectory Analysis",
     summary:
       "Analyzed segmented drifter trajectories to validate ocean eddy identification.",
