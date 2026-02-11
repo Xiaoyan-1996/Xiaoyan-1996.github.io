@@ -102,10 +102,10 @@ function About() {
         <div className="flex flex-col justify-start w-full md:w-3/4">
           <SectionTitle icon={FaUser}>About</SectionTitle>
           <p className="text-lg leading-relaxed mb-4">
-            Hi, I am Xiaoyan Chen, a PhD in Big Data Oceanography. Skilled in
-            machine learning, data analysis, and large-scale data processing,
-            with extensive research experience in AI applications for ocean
-            remote sensing.
+            Hi, I’m Xiaoyan Chen, an MPhil Data Science student at the University of Cambridge. 
+            I specialise in statistics, machine learning, and deep learning, with hands-on experience 
+            designing, building, and deploying end-to-end ML systems using tools such as FastAPI, Docker, 
+            and high-performance computing environments.
           </p>
 
           {/* Social icons */}
