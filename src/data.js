@@ -1,16 +1,16 @@
 const publications = [
   {
-    title: "On the ambiguity of oceanic eddy polarity",
-    authors: "Chen, G., and Chen, X*.",
-    venue: "Journal of Geophysical Research: Oceans, 130, e2024JC022239 (2025)",
-    link: "https://doi.org/10.1029/2024JC022239",
+    title: "Deep blue AI: A new bridge from data to knowledge for the ocean science",
+    authors: "Chen, G., Huang, B., Chen, X., et al.",
+    venue: "Deep Sea Research Part I: Oceanographic Research Papers",
+    link: "https://doi.org/10.1016/j.dsr.2022.103886",
   },
   {
     title:
-      "Segmented Drifter Trajectory-Based Eddy Identification Validated by SWOT Altimetry",
-    authors: "Liu, T., Chen, X*, and Chen, G.",
-    venue: "IEEE Geoscience and Remote Sensing Letters (2025)",
-    link: "https://doi.org/10.1109/LGRS.2025.3590395", // no DOI provided
+      "Global oceanic eddy identification: A deep learning method from argo profiles and altimetry data",
+    authors: "Chen, X., Chen, G.*, Ge, L., Huang, B., and Cao, C.",
+    venue: "Frontiers in Marine Science, 8:646926 (2021)",
+    link: "https://doi.org/10.3389/fmars.2021.646926",
   },
   {
     title: "Eddy detection inverted from Argo profiles to surface altimetry",
@@ -26,46 +26,46 @@ const publications = [
   },
   {
     title:
-      "Quantifying the degree of eddy quasi-geostrophy by generalizing Rossby deformation",
-    authors: "Chen, X., and Chen, G*.",
+      "Medium-range trajectory prediction network compliant to physical constraint for oceanic eddy",
+    authors: "Ge, L., Huang, B., Chen, X., and Chen, G.",
     venue:
-      "Journal of Geophysical Research: Oceans, 128(6), e2023JC019652 (2023)",
-    link: "https://doi.org/10.1029/2023JC019652",
+      "IEEE Transactions on Geoscience and Remote Sensing 61, 1-14",
+    link: "https://ieeexplore.ieee.org/document/10190732",
   },
   {
-    title: "Eddy-induced pycnocline depth displacement over the global ocean",
-    authors: "Chen, X., Li, H., Cao, C., and Chen, G*.",
-    venue: "Journal of Marine Systems, 221(C11):103577 (2021)",
-    link: "https://doi.org/10.1016/j.jmarsys.2021.103577",
+    title: "Submesoscale oceanic eddy detection in SAR images using context and edge association network",
+    authors: "Xia, L., Chen, G., Chen, X., Ge, L., and Huang, B.",
+    venue: "Frontiers in Marine Science 9, 1023624",
+    link: "https://doi.org/10.3389/fmars.2022.1023624",
   },
   {
     title:
-      "Global oceanic eddy identification: A deep learning method from Argo profiles and altimetry data",
-    authors: "Chen, X., Chen, G.*, Ge, L., Huang, B., and Cao, C.",
-    venue: "Frontiers in Marine Science, 8:646926 (2021)",
-    link: "https://doi.org/10.3389/fmars.2021.646926",
+      "Vertical structure-based classification of oceanic eddy using 3-D convolutional neural network",
+    authors: "Huang, B., Ge, L., Chen, X., and Chen, G.",
+    venue: "IEEE Transactions on Geoscience and Remote Sensing 60, 1-14",
+    link: "https://ieeexplore.ieee.org/document/9521672",
   },
 ];
 
 const projects = [
   {
-    title: "Ocean Eddy Detection",
-    summary: "Developed ML models to detect ocean eddies from satellite data.",
+    title: "Full-Stack Machine Learning System for 5D Data Interpolation",
+    summary: "Built a containerised end-to-end ML system for high-dimensional data interpolation.",
     details:
-      "Used a combination of convolutional neural networks and clustering algorithms on multi-source satellite altimetry data to identify and track eddies. Achieved >90% accuracy in validation datasets.",
+      "Built an end-to-end ML application with a FastAPI backend and a Next.js frontend, and containerised the full system using Docker and docker-compose, ensuring reproducible deployment and testing.",
   },
   {
-    title: "Ocean Eddy Detection 2",
-    summary: "Developed ML models to detect ocean eddies from satellite data.",
+    title: "AI-based Ocean Digital Twin",
+    summary: "Led large-scale ML experiments using a 100+ TB data warehouse for ocean prediction.",
     details:
-      "Used a combination of convolutional neural networks and clustering algorithms on multi-source satellite altimetry data to identify and track eddies. Achieved >90% accuracy in validation datasets.",
+      "Led large-scale ML experimentation by developing a 100+ TB data warehouse and contributing to a multi-scale AI framework for ocean prediction.",
   },
   {
-    title: "Drifter Trajectory Analysis",
+    title: "AI-Driven Detection of Ship-Induced Deep Ocean Disturbances",
     summary:
-      "Analyzed segmented drifter trajectories to validate ocean eddy identification.",
+      "Built physics-informed GAN to detect ship-induced deep-ocean disturbances.",
     details:
-      "Implemented algorithms to segment and cluster drifter paths. Compared against SWOT altimetry for validation. Results contributed to a publication in IEEE GRSL.",
+      "Led the development of scalable data processing pipelines and designed a physics-informed GAN to model and quantify ship-induced deep-ocean turbulence.",
   },
   {
     title: "Medium-range Eddy Forecasting",
